@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "wmpk.ovh",
+  "version": "1.0.0",
+  "description": "Simple website to redirect links",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "dev": "wrangler preview --watch",
+    "prod": "wragnler publish"
+  },
+  "author": "Davasny <davasny@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "wrangler": "^0.0.2"
+  }
+}
